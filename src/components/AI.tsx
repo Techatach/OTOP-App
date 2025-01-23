@@ -15,7 +15,7 @@ export default function AI() {
 
           <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              AI ตรวจวินิจฉัยมะเร็งปากมดลูก
+              AI ตรวจวินิจฉัยโรคมะเร็งปากมดลูก
             </h1>
             <p className="mb-8 leading-relaxed">
               คำแนะนำ ให้นำฟิล์มเอ็กซเรย์มาให้ AI ตรวจวินิจฉัย ดังนี้
@@ -44,7 +44,15 @@ export default function AI() {
                 </svg>
                 <span className="ml-4 flex items-start flex-col leading-none">
                   <span className="text-xs text-gray-600 mb-1">GET IT ON</span>
-                  <span className="title-font font-medium">Google Play</span>
+                  <span className="title-font font-medium">
+                    <a
+                      href="https://play.google.com/store/games?hl=th&pli=1"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Google Play
+                    </a>
+                  </span>
                 </span>
               </button>
               <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center ml-4 hover:bg-gray-200 focus:outline-none">
@@ -61,7 +69,15 @@ export default function AI() {
                   <span className="text-xs text-gray-600 mb-1">
                     Download on the
                   </span>
-                  <span className="title-font font-medium">App Store</span>
+                  <span className="title-font font-medium">
+                    <a
+                      href="https://www.apple.com/th/app-store/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      App Store
+                    </a>
+                  </span>
                 </span>
               </button>
             </div>
