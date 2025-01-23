@@ -148,7 +148,7 @@ export default function Navbar() {
                 สินค้า
               </span>
               <span className="h1 text-uppercase text-dark bg-primary px-2 ml-n1">
-                OTOP
+                OTOP จังหวัดสกลนคร
               </span>
             </a>
           </div>
@@ -291,7 +291,7 @@ export default function Navbar() {
                       className="nav-link dropdown-toggle"
                       data-toggle="dropdown"
                     >
-                      สั่งซื้อสินค้า <i className="fa fa-angle-down mt-1" />
+                      การสั่งซื้อสินค้า <i className="fa fa-angle-down mt-1" />
                     </a>
                     <div className="dropdown-menu bg-primary rounded-0 border-0 m-0">
                       <a href="/cart" className="dropdown-item">
