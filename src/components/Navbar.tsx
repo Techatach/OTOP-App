@@ -217,7 +217,7 @@ export default function Navbar() {
                         เสื้อผ้าสตรี
                       </a>
                       <a href="/shop" className="dropdown-item">
-                        เสื้อผ้า
+                        เสื้อผ้าเด็ก
                       </a>
                     </div>
                   </div>
@@ -306,7 +306,7 @@ export default function Navbar() {
                     ติดต่อ
                   </a>
                   <a href="/ai" className="nav-item nav-link">
-                    บริการตรวจสุขภาพ
+                    AI บริการตรวจสุขภาพ
                   </a>
                 </div>
                 <div className="navbar-nav ml-auto py-0 d-none d-lg-block">

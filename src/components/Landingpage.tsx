@@ -28,13 +28,14 @@ export default function Landingpage() {
                 >
                   <img
                     className="position-absolute w-100 h-100"
-                    src="img/carousel-1.jpg"
+                    // src="img/carousel-1.jpg"
+                    src="img/Group.jpg"
                     style={{ objectFit: "cover" }}
                   />
                   <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div className="p-3" style={{ maxWidth: 700 }}>
                       <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown font-extrabold">
-                        แฟชั่นสุภาพบุรุษ
+                        แฟชั่นผ้าย้อมครามบุรุษ
                       </h1>
                       <p className="mx-md-5 px-5 animate__animated animate__bounceIn">
                         Lorem rebum magna amet lorem magna erat diam stet.
@@ -55,13 +56,14 @@ export default function Landingpage() {
                 >
                   <img
                     className="position-absolute w-100 h-100"
-                    src="img/carousel-2.jpg"
+                    // src="img/carousel-2.jpg"
+                    src="img/Group2.jpg"
                     style={{ objectFit: "cover" }}
                   />
                   <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div className="p-3" style={{ maxWidth: 700 }}>
                       <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">
-                        Women Fashion
+                        แฟชั่นผ้าย้อมครามสตรี
                       </h1>
                       <p className="mx-md-5 px-5 animate__animated animate__bounceIn">
                         Lorem rebum magna amet lorem magna erat diam stet.
@@ -82,13 +84,14 @@ export default function Landingpage() {
                 >
                   <img
                     className="position-absolute w-100 h-100"
-                    src="img/carousel-3.jpg"
+                    // src="img/carousel-3.jpg"
+                    src="img/Group3.jpg"
                     style={{ objectFit: "cover" }}
                   />
                   <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div className="p-3" style={{ maxWidth: 700 }}>
                       <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">
-                        Kids Fashion
+                        แฟชั่นผ้าย้อมครามเด็ก
                       </h1>
                       <p className="mx-md-5 px-5 animate__animated animate__bounceIn">
                         Lorem rebum magna amet lorem magna erat diam stet.

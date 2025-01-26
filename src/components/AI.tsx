@@ -15,7 +15,7 @@ export default function AI() {
 
           <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              AI ตรวจวินิจฉัยโรคมะเร็งปากมดลูก
+              AI ตรวจวินิจฉัยโรคมะเร็งปอด
             </h1>
             <p className="mb-8 leading-relaxed">
               คำแนะนำ ให้นำฟิล์มเอ็กซเรย์มาให้ AI ตรวจวินิจฉัย ดังนี้
@@ -23,12 +23,18 @@ export default function AI() {
                 style={{ listStyleType: "decimal" }}
                 className="w-full flex flex-col items-center text-center"
               >
-                <li>น่าจะเป็นมะเร็งชนิด A</li>
-                <li>น่าจะเป็นมะเร็งชนิด B</li>
-                <li>น่าจะเป็นมะเร็งชนิด C</li>
+                <li>lung_aca เป็นมะเร็งปอดชนิด aca</li>
+                <li>lung_bnt เป็นปกติไม่เป็นมะเร็งปอด</li>
+                <li>lung_scc เป็นมะเร็งปอดชนิด scc</li>
               </ol>
               <div className="text-xl">
-                <Link href="#">คลิกตรวจโรคมะเร็งปากมดลูกที่นี่</Link>
+                <Link
+                  href="http://127.0.0.1:5000/index"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  คลิกตรวจโรคมะเร็งปอดที่นี่
+                </Link>
               </div>
             </p>
 
