@@ -283,7 +283,7 @@ export default function Navbar() {
                     สินค้า
                   </a>
                   <a href="/detail" className="nav-item nav-link">
-                    รายละเอียด
+                    รายละเอียดสินค้า
                   </a>
                   <div className="nav-item dropdown">
                     <a
@@ -350,7 +350,3 @@ export default function Navbar() {
     </div>
   );
 }
-
-
-
-
