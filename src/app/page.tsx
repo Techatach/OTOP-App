@@ -1,12 +1,7 @@
-import Landingpage from "@/components/Landingpage";
-// import { Button } from "@/components/ui/button";
-import React from "react";
-
 export default function Home() {
   return (
-    <div>
-      {/* <Button>Button</Button> */}
-      <Landingpage />
+    <div className="pt-16 container mx-auto flex items-center justify-center">
+      <h1 className="text-3xl font-bold">Home</h1>
     </div>
   );
 }

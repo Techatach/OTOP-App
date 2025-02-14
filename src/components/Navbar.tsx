@@ -329,6 +329,12 @@ export default function Navbar() {
                     </span>
                   </a>
                 </div>
+                {/* <a href="/signName" className="nav-item nav-link">
+                  Sign In
+                </a>
+                <a href="/ai" className="nav-item nav-link">
+                  Sign Up
+                </a> */}
               </div>
             </nav>
           </div>
